@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.dropdown-menu::after{
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 4px;
+  content: "\f107";
+  font-family: "FontAwesome";
+  font-size: 80%;
+}
+
+.sep::after{
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 7px;
+  margin-right: 7px;
+  content: "\f054";
+  font-weight: 100;
+  font-family: "FontAwesome";
+  color: aliceblue;
+  font-size: 50%;
+}
+
+
+.styles-module_whatsappButton__IWx9V {
+  left: 30px !important;
+}
+
+.styles-module_whatsappChatBox__P75uz{
+  left: 4rem !important;
+}
+
+@media screen and (max-width: 800px) {
+  
+  .rcw-conversation-container .rcw-header{
+    padding-top: 50px !important;
+  }
+  .rcw-conversation-container .rcw-close-button{
+    right: 0px !important;
+    top: 100px !important;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .styles-module_whatsappChatBox__P75uz{
+    width: 300px !important;
+  }
+}
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+
+
